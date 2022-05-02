@@ -7,6 +7,9 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface LumonView : ScreenSaverView
+@interface LumonView : ScreenSaverView {
+    NSRect _rect;
+    NSPoint _rectMovement;
+}
 
 @end

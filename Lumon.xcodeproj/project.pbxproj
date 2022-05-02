@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		FB90E65428133DBF007EF930 /* LumonView.h in Headers */ = {isa = PBXBuildFile; fileRef = FB90E65328133DBF007EF930 /* LumonView.h */; };
 		FB90E65628133DBF007EF930 /* LumonView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB90E65528133DBF007EF930 /* LumonView.m */; };
+		FB90E65F2813AA2F007EF930 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = FB90E65E2813AA2F007EF930 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB90E65028133DBF007EF930 /* Lumon.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lumon.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB90E65328133DBF007EF930 /* LumonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LumonView.h; sourceTree = "<group>"; };
 		FB90E65528133DBF007EF930 /* LumonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LumonView.m; sourceTree = "<group>"; };
+		FB90E65E2813AA2F007EF930 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			children = (
 				FB90E65328133DBF007EF930 /* LumonView.h */,
 				FB90E65528133DBF007EF930 /* LumonView.m */,
+				FB90E65E2813AA2F007EF930 /* logo.png */,
 			);
 			path = Lumon;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB90E65F2813AA2F007EF930 /* logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
